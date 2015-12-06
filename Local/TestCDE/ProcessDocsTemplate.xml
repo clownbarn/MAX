@@ -1,0 +1,713 @@
+<?xml version="1.0"?>
+<CdeLoan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <adfitech processDate="2015-05-19" loanid="LOAN_ID" transactionType="Pre Closing Review">
+    <Documents>
+      <Document filename="67-1.pdf" type="Tax Return Transcript" pages="4" version="1" fileType="pdf" fileSize="137758" format="multipage" hash="15e5876c93d2c520626e25281be88068">
+        <attribute name="Ssn 1" value="085-48-8468" page="4"/>
+        <attribute name="Ssn 2" value="585-48-8473" page="4"/>
+      </Document>
+      <Document filename="67-2.pdf" type="Tax Return Transcript" pages="3" version="2" fileType="pdf" fileSize="117704" format="multipage" hash="9cee369d31ca14612b6ed7933b2c822c">
+        <attribute name="Ssn 1" value="085-48-8468" page="6"/>
+        <attribute name="Ssn 2" value="585-48-8473" page="6"/>
+      </Document>
+      <Document filename="67-3.pdf" type="Tax Return Transcript" pages="3" version="3" fileType="pdf" fileSize="117704" format="multipage" hash="f7220a107eae2e855e5a5fcf23dcfcee">
+        <attribute name="Ssn 1" value="085-48-8468" page="8"/>
+        <attribute name="Ssn 2" value="585-48-8473" page="8"/>
+      </Document>
+      <Document filename="27-1.pdf" type="Good Faith Estimate Initial" pages="3" version="1" fileType="pdf" fileSize="324963" format="multipage" hash="52137b97e6566d72d7a6c4053f9cec77">
+        <attribute name="Property City" value="thatcity" page="4"/>
+        <attribute name="Property Address 1" value="123 nowhere circle" page="4"/>
+        <attribute name="Property Zip" value="01234" page="4"/>
+        <attribute name="Property State" value="MA" page="4"/>
+        <attribute name="Interest rate" value="0.035" page="4"/>
+        <attribute name="Document Date" value="05/14/2013" page="4"/>
+        <attribute name="Name 1" value="Ben Ten" page="4"/>
+        <attribute name="Loan Amount" value="640000.000" page="4"/>
+        <attribute name="Term" value="30" page="4"/>
+        <attribute name="GFE Box A Value" value="635.000" page="4"/>
+        <attribute name="GFE Box A1 Value" value="635.000" page="4"/>
+        <attribute name="GFE Box A2 Value" value="0.000" page="4"/>
+        <attribute name="GFE Box B Value" value="10999.640" page="4"/>
+        <attribute name="GFE Box B10 Value" value="1866.600" page="4"/>
+        <attribute name="GFE Box B11 Value" value="2000.040" page="4"/>
+        <attribute name="GFE Box B3 Value" value="751.000" page="4"/>
+        <attribute name="GFE Box B4 Value" value="2675.000" page="4"/>
+        <attribute name="GFE Box B5 Value" value="1615.000" page="4"/>
+        <attribute name="GFE Box B6 Value" value="0.000" page="4"/>
+        <attribute name="GFE Box B7 Value" value="800.000" page="4"/>
+        <attribute name="GFE Box B8 Value" value="0.000" page="4"/>
+        <attribute name="GFE Box B9 Value" value="1292.000" page="4"/>
+        <attribute name="GFE Important Date 1" value="06/25/2013" page="4"/>
+        <attribute name="payment" value="2873.890" page="4"/>
+      </Document>
+      <Document filename="37-1.pdf" type="Investment Statement" pages="12" version="1" fileType="pdf" fileSize="622075" format="multipage" hash="6b6c533974bdf55bd9527af2eb4a9d9c">
+        <attribute name="Document Date" value="04/09/2013" page="4"/>
+      </Document>
+      <Document filename="37-2.pdf" type="Investment Statement" pages="12" version="2" fileType="pdf" fileSize="618359" format="multipage" hash="228e543a78bdedcf39650e701f6fee01">
+        <attribute name="Document Date" value="04/24/2013" page="6"/>
+      </Document>
+      <Document filename="18-1.pdf" type="Credit Report" pages="3" version="1" fileType="pdf" fileSize="39091" format="multipage" hash="f512aa9320eabea011a4cd0a26881dc3">
+        <attribute name="Document Date" value="01/20/2015" page="4"/>
+        <attribute name="FICOScore1Borrower 1" value="779" page="4"/>
+        <attribute name="Report ID Number 1" value="1434202782" page="4"/>
+        <attribute name="Ssn 1" value="085-48-8468" page="4"/>
+      </Document>
+      <Document filename="18-2.pdf" type="Credit Report" pages="2" version="2" fileType="pdf" fileSize="74061" format="multipage" hash="d42db4921d432fbe1ef08c04e0e9bf80">
+        <attribute name="Document Date" value="06/10/2013" page="6"/>
+        <attribute name="Report ID Number 1" value="E2204LRB1049569" page="6"/>
+        <attribute name="Ssn 1" value="085-48-8468" page="6"/>
+      </Document>
+      <Document filename="18-3.pdf" type="Credit Report" pages="4" version="3" fileType="pdf" fileSize="327592" format="multipage" hash="123d378c0ce6d68acc96120d9ac116ff">
+        <attribute name="Document Date" value="05/13/2013" page="8"/>
+        <attribute name="FICOScore1Borrower 1" value="808" page="8"/>
+        <attribute name="FICOScore2Borrower 1" value="781" page="8"/>
+        <attribute name="FICOScore3Borrower 1" value="778" page="8"/>
+        <attribute name="Report ID Number 1" value="E2204BXC3090564" page="8"/>
+        <attribute name="Ssn 1" value="085-48-8468" page="8"/>
+      </Document>
+      <Document filename="43-1.pdf" type="Note Final" pages="3" version="1" fileType="pdf" fileSize="234499" format="multipage" hash="0b09875aaee93f5c6dc8004810c3ca9a">
+        <attribute name="Property City" value="thatcity" page="4"/>
+        <attribute name="Property Address 1" value="123 nowhere circle ROAD" page="4"/>
+        <attribute name="Property Zip" value="01234" page="4"/>
+        <attribute name="Signature 1" value="Y" page="4"/>
+        <attribute name="Property State" value="MA" page="4"/>
+        <attribute name="Interest rate" value="0.039" page="4"/>
+        <attribute name="Document Date" value="06/12/2013" page="4"/>
+        <attribute name="Lender" value="BOSTON PRIVATE BANK AND TRUST COMPANY" page="4"/>
+        <attribute name="Name 1" value="Ben Ten" page="4"/>
+        <attribute name="Loan Amount" value="640000.000" page="4"/>
+        <attribute name="payment" value="3009.520" page="4"/>
+        <attribute name="First Payment Date" value="08/01/2013" page="4"/>
+        <attribute name="Loan Number" value="25564" page="4"/>
+        <attribute name="Maturity Date" value="07/01/1943" page="4"/>
+        <attribute name="Amortization Type" value="Fixed Rate" page="4"/>
+        <attribute name="Late Days" value="15" page="4"/>
+        <attribute name="Late Percent" value="0.030" page="4"/>
+        <attribute name="Loan Origination Company Address" value="TEN POST OFFICE SQUARE, BOSTON, MA 02109" page="4"/>
+        <attribute name="Loan Origination Company Name" value="BOSTON PRIVATE BANK AND TRUST COMPANY" page="4"/>
+      </Document>
+      <Document filename="43-2.pdf" type="Note Final" pages="3" version="2" fileType="pdf" fileSize="180013" format="multipage" hash="30d4577971f4c0ea9d785af51b068e40">
+        <attribute name="Property City" value="thatcity" page="6"/>
+        <attribute name="Property Address 1" value="123 nowhere circle ROAD" page="6"/>
+        <attribute name="Property Zip" value="01234" page="6"/>
+        <attribute name="Signature 1" value="Y" page="6"/>
+        <attribute name="Property State" value="MA" page="6"/>
+        <attribute name="Interest rate" value="0.039" page="6"/>
+        <attribute name="Document Date" value="06/12/2013" page="6"/>
+        <attribute name="Lender" value="BOSTON PRIVATE BANK AND TRUST COMPANY" page="6"/>
+        <attribute name="Name 1" value="Ben Ten" page="6"/>
+        <attribute name="Loan Amount" value="640000.000" page="6"/>
+        <attribute name="payment" value="3009.520" page="6"/>
+        <attribute name="First Payment Date" value="08/01/2013" page="6"/>
+        <attribute name="Loan Number" value="25564" page="6"/>
+        <attribute name="Maturity Date" value="07/01/1943" page="6"/>
+        <attribute name="Amortization Type" value="FIXED RATE" page="6"/>
+        <attribute name="Late Days" value="15" page="6"/>
+        <attribute name="Late Percent" value="0.030" page="6"/>
+        <attribute name="Loan Origination Company Address" value="TEN POST OFFICE SQUARE, BOSTON, MA 02109" page="6"/>
+        <attribute name="Loan Origination Company Name" value="BOSTON PRIVATE BANK AND TRUST COMPANY" page="6"/>
+      </Document>
+      <Document filename="184-1.pdf" type="Notice of the Right to Declare Homestead Protection" pages="2" version="1" fileType="pdf" fileSize="94841" format="multipage" hash="31e216c07e15021c1cba5c562adc7d47">
+        <attribute name="Signature 1" value="Y" page="4"/>
+        <attribute name="Signature 2" value="Y" page="4"/>
+      </Document>
+      <Document filename="184-2.pdf" type="Notice of the Right to Declare Homestead Protection" pages="1" version="2" fileType="pdf" fileSize="60089" format="singlepage" hash="f36fb896b9241128d28e7179719419e5">
+        <attribute name="Signature 1" value="N" page="6"/>
+        <attribute name="Signature 2" value="N" page="6"/>
+      </Document>
+      <Document filename="184-3.pdf" type="Notice of the Right to Declare Homestead Protection" pages="1" version="3" fileType="pdf" fileSize="49204" format="singlepage" hash="8b85620693ef606a69a14fef83c80d6c">
+        <attribute name="Signature 1" value="Y" page="8"/>
+        <attribute name="Signature 2" value="Y" page="8"/>
+      </Document>
+      <Document filename="165-1.pdf" type="Security Instrument Final " pages="14" version="1" fileType="pdf" fileSize="1070777" format="multipage" hash="e554a9ca5743b0b729ca8c669f32d1da">
+        <attribute name="Property City" value="thatcity" page="4"/>
+        <attribute name="Property Address 1" value="123 nowhere circle ROAD" page="4"/>
+        <attribute name="Property Zip" value="01234" page="4"/>
+        <attribute name="Signature 1" value="Y" page="4"/>
+        <attribute name="Signature 2" value="Y" page="4"/>
+        <attribute name="Property State" value="MA" page="4"/>
+        <attribute name="Document Date" value="06/12/2013" page="4"/>
+        <attribute name="County" value="0" page="4"/>
+        <attribute name="Name 1" value="Ben Ten" page="4"/>
+        <attribute name="Notary Signature 1" value="Y" page="4"/>
+        <attribute name="Notary Stamp 1" value="Y" page="4"/>
+        <attribute name="Loan Amount" value="640000.000" page="4"/>
+        <attribute name="Name 2" value="John Eleven" page="4"/>
+        <attribute name="Maturity Date" value="07/01/2043" page="4"/>
+        <attribute name="Loan Officer Name" value="CHRISTOPHER WADE" page="4"/>
+        <attribute name="Loan Origination Company Address" value="TEN POST OFFICE SQUARE, BOSTON, MA 02109" page="4"/>
+        <attribute name="Loan Origination Company Identifier" value="733455" page="4"/>
+        <attribute name="Loan Origination Company Name" value="BOSTON PRIVATE BANK AND TRUST COMPANY" page="4"/>
+        <attribute name="Notary Date" value="06/12/2013" page="4"/>
+      </Document>
+      <Document filename="165-2.pdf" type="Security Instrument Final " pages="14" version="2" fileType="pdf" fileSize="1126278" format="multipage" hash="ead7928be52d5f13717df0eb400cb94e">
+        <attribute name="Property City" value="thatcity" page="6"/>
+        <attribute name="Property Address 1" value="123 nowhere circle ROAD" page="6"/>
+        <attribute name="Property Zip" value="01234" page="6"/>
+        <attribute name="Signature 1" value="Y" page="6"/>
+        <attribute name="Signature 2" value="Y" page="6"/>
+        <attribute name="Property State" value="MA" page="6"/>
+        <attribute name="Document Date" value="06/12/2013" page="6"/>
+        <attribute name="County" value="0" page="6"/>
+        <attribute name="Name 1" value="Ben Ten" page="6"/>
+        <attribute name="Notary Signature 1" value="Y" page="6"/>
+        <attribute name="Notary Stamp 1" value="Y" page="6"/>
+        <attribute name="Loan Amount" value="640000.000" page="6"/>
+        <attribute name="Name 2" value="John Eleven" page="6"/>
+        <attribute name="Maturity Date" value="07/01/1943" page="6"/>
+        <attribute name="Loan Officer Name" value="CHRISTOPHER WADE" page="6"/>
+        <attribute name="Loan Origination Company Address" value="TEN POST OFFICE SQUARE, BOSTON, MA 02109" page="6"/>
+        <attribute name="Loan Origination Company Identifier" value="733455" page="6"/>
+        <attribute name="Loan Origination Company Name" value="BOSTON PRIVATE BANK AND TRUST COMPANY" page="6"/>
+        <attribute name="Notary Date" value="06/12/2013" page="6"/>
+      </Document>
+      <Document filename="132-1.pdf" type="Lead Paint Agreement" pages="1" version="1" fileType="pdf" fileSize="61851" format="singlepage" hash="a458790b7f7a684ec0ef8a6bc7bbbfe0">
+        <attribute name="Signature 1" value="Y" page="4"/>
+        <attribute name="Signature 2" value="Y" page="4"/>
+        <attribute name="Document Date" value="06/12/2013" page="4"/>
+      </Document>
+      <Document filename="132-2.pdf" type="Lead Paint Agreement" pages="2" version="2" fileType="pdf" fileSize="111422" format="multipage" hash="540413e6b5431572b557dd93d20742b7">
+        <attribute name="Signature 1" value="Y" page="6"/>
+        <attribute name="Signature 2" value="Y" page="6"/>
+        <attribute name="Document Date" value="06/12/2013" page="6"/>
+      </Document>
+      <Document filename="132-3.pdf" type="Lead Paint Agreement" pages="1" version="3" fileType="pdf" fileSize="81800" format="singlepage" hash="d02d96397f637ded38e0612dce385ba5">
+        <attribute name="Signature 1" value="Y" page="8"/>
+        <attribute name="Document Date" value="06/12/2013" page="8"/>
+      </Document>
+      <Document filename="130-1.pdf" type="Interest Rate Lock/Float Information Notice" pages="1" version="1" fileType="pdf" fileSize="137418" format="singlepage" hash="f256f9c1a2a7b8845a501b1114cda170">
+        <attribute name="Signature 1" value="Y" page="4"/>
+        <attribute name="Signature Date 1" value="05/14/2013" page="4"/>
+        <attribute name="Document Date" value="05/14/2013" page="4"/>
+        <attribute name="Lender Signature" value="N" page="4"/>
+      </Document>
+      <Document filename="2-1.pdf" type="4506T" pages="2" version="1" fileType="pdf" fileSize="180039" format="multipage" hash="e51d11d0ab931782e784c4f7d98b097c">
+        <attribute name="Signature 1" value="Y" page="4"/>
+        <attribute name="Signature Date 1" value="05/25/2013" page="4"/>
+      </Document>
+      <Document filename="2-2.pdf" type="4506T" pages="2" version="2" fileType="pdf" fileSize="205483" format="multipage" hash="8af56fba3d8c8bd3b9fe8951786f4e58">
+        <attribute name="Signature 1" value="Y" page="6"/>
+        <attribute name="Signature Date 1" value="06/12/2013" page="6"/>
+      </Document>
+      <Document filename="2-3.pdf" type="4506T" pages="2" version="3" fileType="pdf" fileSize="209102" format="multipage" hash="7e7ef008d5d4388209c635f83841dae5">
+        <attribute name="Signature 1" value="Y" page="8"/>
+        <attribute name="Signature Date 1" value="06/12/2013" page="8"/>
+      </Document>
+      <Document filename="75-1.pdf" type="Truth in Lending Disclosure Statement Initial" pages="1" version="1" fileType="pdf" fileSize="111402" format="singlepage" hash="d58bdd821e39091d95f509aaa304fbdc">
+        <attribute name="Property City" value="thatcity" page="4"/>
+        <attribute name="Property Address 1" value="123 nowhere circle" page="4"/>
+        <attribute name="Property Zip" value="01234" page="4"/>
+        <attribute name="Property State" value="MA" page="4"/>
+        <attribute name="Name 1" value="Ben Ten" page="4"/>
+        <attribute name="Transaction Date" value="05/14/2013" page="4"/>
+        <attribute name="Annual Percentage Rate" value="0.035" page="4"/>
+      </Document>
+      <Document filename="72-1.pdf" type="Title Policy" pages="15" version="1" fileType="pdf" fileSize="1654812" format="multipage" hash="cf80e5a56f01fd6af474e15ded1ef396">
+        <attribute name="Owner of Record" value="this borrower, that borrower" page="4"/>
+        <attribute name="Vested On" value="06/12/2013" page="4"/>
+      </Document>
+      <Document filename="72-2.pdf" type="Title Policy" pages="15" version="2" fileType="pdf" fileSize="1142583" format="multipage" hash="765a5059f85fc273e4ac31016f1c2303">
+        <attribute name="Owner of Record" value="this borrower, that borrower" page="6"/>
+        <attribute name="Vested On" value="06/12/2013" page="6"/>
+      </Document>
+      <Document filename="51-1.pdf" type="Notice to Home Loan Applicant" pages="1" version="1" fileType="pdf" fileSize="244714" format="singlepage" hash="88961f78f1a5944785621946c2b64e94">
+        <attribute name="Document Date" value="05/26/2013" page="4"/>
+      </Document>
+      <Document filename="70-1.pdf" type="Title Commitment" pages="7" version="1" fileType="pdf" fileSize="323509" format="multipage" hash="7d585193fee2c0f5b0c08669affac21a">
+        <attribute name="Owner of Record" value="Jseller" page="4"/>
+        <attribute name="Seller Name 1" value="sellers" page="4"/>
+        <attribute name="Proposed Insured Mortgage Company" value="BOSTON PRIVATE BANK &amp; TRUST COMPANY" page="4"/>
+      </Document>
+      <Document filename="70-2.pdf" type="Title Commitment" pages="7" version="2" fileType="pdf" fileSize="294780" format="multipage" hash="a181f51723fa6565daa92596b3193631">
+        <attribute name="Owner of Record" value="sellers" page="6"/>
+        <attribute name="Seller Name 1" value="sellers" page="6"/>
+        <attribute name="Proposed Insured Mortgage Company" value="BOSTON PRIVATE BANK &amp; TRUST COMPANY" page="6"/>
+      </Document>
+      <Document filename="26-1.pdf" type="Good Faith Estimate Final" pages="3" version="1" fileType="pdf" fileSize="325182" format="multipage" hash="7e067d65481f8bed64883267a8d93f5b">
+        <attribute name="Property City" value="thatcity" page="4"/>
+        <attribute name="Property Address 1" value="123 nowhere circle" page="4"/>
+        <attribute name="Property Zip" value="01234" page="4"/>
+        <attribute name="Property State" value="MA" page="4"/>
+        <attribute name="Interest rate" value="0.039" page="4"/>
+        <attribute name="Document Date" value="05/20/2013" page="4"/>
+        <attribute name="Name 1" value="Ben Ten" page="4"/>
+        <attribute name="Loan Amount" value="640000.000" page="4"/>
+        <attribute name="P and I Payment" value="3009.520" page="4"/>
+        <attribute name="Term" value="30" page="4"/>
+        <attribute name="GFE Box A Value" value="635.000" page="4"/>
+        <attribute name="GFE Box A1 Value" value="635.000" page="4"/>
+        <attribute name="GFE Box A2 Value" value="0.000" page="4"/>
+        <attribute name="GFE Box B Value" value="11177.080" page="4"/>
+        <attribute name="GFE Box B10 Value" value="2066.700" page="4"/>
+        <attribute name="GFE Box B11 Value" value="2000.040" page="4"/>
+        <attribute name="GFE Box B3 Value" value="751.000" page="4"/>
+        <attribute name="GFE Box B4 Value" value="2675.000" page="4"/>
+        <attribute name="GFE Box B5 Value" value="1615.000" page="4"/>
+        <attribute name="GFE Box B6 Value" value="0.000" page="4"/>
+        <attribute name="GFE Box B7 Value" value="800.000" page="4"/>
+        <attribute name="GFE Box B8 Value" value="0.000" page="4"/>
+        <attribute name="GFE Box B9 Value" value="1269.340" page="4"/>
+        <attribute name="GFE Important Date 1" value="07/19/2013" page="4"/>
+      </Document>
+      <Document filename="97-1.pdf" type="Automated Valuation Model Disclosure/Right to Receive a Copy of the AVM" pages="13" version="1" fileType="pdf" fileSize="2619531" format="multipage" hash="a928ee7949a1b12aae3732f021d9e534">
+        <attribute name="Document Date" value="01/29/2015" page="4"/>
+      </Document>
+      <Document filename="85-1.pdf" type="W-2" pages="1" version="1" fileType="pdf" fileSize="432911" format="singlepage" hash="f26b8aa7379d92f76137b7d6ffb1c46c">
+        <attribute name="Tax Year" value="2011" page="4"/>
+      </Document>
+      <Document filename="85-2.pdf" type="W-2" pages="1" version="2" fileType="pdf" fileSize="503347" format="singlepage" hash="386d4007074026f499e10be1df743f6a">
+        <attribute name="Tax Year" value="2012" page="6"/>
+      </Document>
+      <Document filename="11-1.pdf" type="Bank Statements" pages="4" version="1" fileType="pdf" fileSize="174511" format="multipage" hash="b7c1067c7c0d771ee24d8dac8f5e9099">
+        <attribute name="Document Date" value="04/09/2013" page="4"/>
+      </Document>
+      <Document filename="11-2.pdf" type="Bank Statements" pages="5" version="2" fileType="pdf" fileSize="458471" format="multipage" hash="5931c7f0f98dfebdad2c3fd599575846">
+        <attribute name="Document Date" value="04/26/2013" page="6"/>
+      </Document>
+      <Document filename="11-3.pdf" type="Bank Statements" pages="4" version="3" fileType="pdf" fileSize="377359" format="multipage" hash="fc80638fc5f751dc780284f0810a887b">
+        <attribute name="Document Date" value="03/27/2013" page="8"/>
+      </Document>
+      <Document filename="76-1.pdf" type="Truth in Lending Disclosure Statement Intermediate" pages="1" version="1" fileType="pdf" fileSize="111404" format="singlepage" hash="4e8a75023a153b885db44741b98161db">
+        <attribute name="Name 1" value="Ben Ten" page="4"/>
+        <attribute name="Transaction Date" value="05/20/2013" page="4"/>
+        <attribute name="Annual Percentage Rate" value="0.039" page="4"/>
+      </Document>
+      <Document filename="29-1.pdf" type="Hazard Insurance" pages="1" version="1" fileType="pdf" fileSize="62564" format="singlepage" hash="62453061c128d2eac67a7440b321ea65">
+        <attribute name="Property City" value="thatcity" page="4"/>
+        <attribute name="Property Address 1" value="123 nowhere circle RD" page="4"/>
+        <attribute name="Property Zip" value="01234" page="4"/>
+        <attribute name="Property State" value="MA" page="4"/>
+        <attribute name="Effective Date" value="06/12/2013" page="4"/>
+        <attribute name="Name 1" value="Ben Ten" page="4"/>
+        <attribute name="Name 2" value="John Eleven" page="4"/>
+        <attribute name="Coverage Amount" value="500000.000" page="4"/>
+        <attribute name="Deductible" value="1000.000" page="4"/>
+      </Document>
+      <Document filename="29-2.pdf" type="Hazard Insurance" pages="4" version="2" fileType="pdf" fileSize="145076" format="multipage" hash="e45993f6e97efba720744fc5b59d03b6">
+        <attribute name="Property City" value="thatcity" page="6"/>
+        <attribute name="Property Address 1" value="123 nowhere circle RD" page="6"/>
+        <attribute name="Property Zip" value="01234" page="6"/>
+        <attribute name="Property State" value="MA" page="6"/>
+        <attribute name="Effective Date" value="06/12/2013" page="6"/>
+        <attribute name="Name 1" value="Ben Ten" page="6"/>
+        <attribute name="Name 2" value="John Eleven" page="6"/>
+        <attribute name="Coverage Amount" value="500000.000" page="6"/>
+        <attribute name="Deductible" value="1000.000" page="6"/>
+      </Document>
+      <Document filename="29-3.pdf" type="Hazard Insurance" pages="1" version="3" fileType="pdf" fileSize="94993" format="singlepage" hash="fd099beb6ac4ff433228ba798c903cf5">
+        <attribute name="Property City" value="thatcity" page="8"/>
+        <attribute name="Property Address 1" value="123 nowhere circle RD" page="8"/>
+        <attribute name="Property Unit No" value="3" page="8"/>
+        <attribute name="Property Zip" value="01234" page="8"/>
+        <attribute name="Property State" value="MA" page="8"/>
+        <attribute name="Effective Date" value="06/05/2013" page="8"/>
+        <attribute name="Name 1" value="Ben Ten" page="8"/>
+        <attribute name="Name 2" value="John Eleven" page="8"/>
+        <attribute name="Coverage Amount" value="500000.000" page="8"/>
+        <attribute name="Deductible" value="1000.000" page="8"/>
+      </Document>
+      <Document filename="17-1.pdf" type="Contract of Sale" pages="14" version="1" fileType="pdf" fileSize="1025848" format="multipage" hash="9d8553e77928b023d6c9924374584607">
+        <attribute name="Property City" value="thatcity" page="4"/>
+        <attribute name="Property Address 1" value="123 nowhere circle ROAD" page="4"/>
+        <attribute name="Property Zip" value="01234" page="4"/>
+        <attribute name="Property State" value="MA" page="4"/>
+        <attribute name="Purchaser Name 1" value="that borrower" page="4"/>
+        <attribute name="Purchaser Name 2" value="this borrower" page="4"/>
+        <attribute name="Purchaser Signature 1" value="Y" page="4"/>
+        <attribute name="Purchaser Signature 2" value="Y" page="4"/>
+        <attribute name="Sales Price" value="800000.000" page="4"/>
+        <attribute name="Seller Name 1" value="seller" page="4"/>
+        <attribute name="Seller Signature 1" value="Y" page="4"/>
+      </Document>
+      <Document filename="17-2.pdf" type="Contract of Sale" pages="15" version="2" fileType="pdf" fileSize="954255" format="multipage" hash="d67827c7f62fe7d8f2843071f13d5f71">
+        <attribute name="Property City" value="thatcity" page="6"/>
+        <attribute name="Property Address 1" value="123 nowhere circle ROAD" page="6"/>
+        <attribute name="Property Zip" value="01234" page="6"/>
+        <attribute name="Property State" value="MA" page="6"/>
+        <attribute name="Purchaser Name 1" value="that borrower" page="6"/>
+        <attribute name="Purchaser Name 2" value="this borrower" page="6"/>
+        <attribute name="Purchaser Signature 1" value="Y" page="6"/>
+        <attribute name="Purchaser Signature 2" value="Y" page="6"/>
+        <attribute name="Sales Price" value="800000.000" page="6"/>
+        <attribute name="Seller Name 1" value="JAMES J. RAPOPORT AND SUSAN C. RAPOPORT" page="6"/>
+        <attribute name="Seller Signature 1" value="Y" page="6"/>
+      </Document>
+      <Document filename="217-1.pdf" type="Loan Approval Notice / Commitment" pages="5" version="1" fileType="pdf" fileSize="309671" format="multipage" hash="4b19395fcd909c133eaaeb61dfff3a04"/>
+      <Document filename="64-1.pdf" type="Signature Name Affidavit" pages="1" version="1" fileType="pdf" fileSize="53858" format="singlepage" hash="fdcf1ea920f0f6a791b5fb8f9233526a">
+        <attribute name="AKA" value="Benjamin Ten" page="4"/>
+        <attribute name="Signature 1" value="Y" page="4"/>
+        <attribute name="Document Date" value="06/12/2013" page="4"/>
+        <attribute name="Name 1" value="Ben Ten" page="4"/>
+        <attribute name="Notary Signature 1" value="Y" page="4"/>
+        <attribute name="Notary Stamp 1" value="Y" page="4"/>
+      </Document>
+      <Document filename="64-2.pdf" type="Signature Name Affidavit" pages="1" version="2" fileType="pdf" fileSize="50831" format="singlepage" hash="549058e871e441bf8332b136b304c088">
+        <attribute name="AKA" value="Johnathan Eleven" page="6"/>
+        <attribute name="Signature 2" value="Y" page="6"/>
+        <attribute name="Document Date" value="06/12/2013" page="6"/>
+        <attribute name="Notary Signature 1" value="Y" page="6"/>
+        <attribute name="Notary Stamp 1" value="Y" page="6"/>
+        <attribute name="Name 2" value="John Eleven" page="6"/>
+      </Document>
+      <Document filename="30-1.pdf" type="HUD 1 Addendum" pages="1" version="1" fileType="pdf" fileSize="78891" format="singlepage" hash="bd9799a1d5505f9148dfea7f4d56a982">
+        <attribute name="Signature 1" value="Y" page="4"/>
+        <attribute name="Signature 2" value="Y" page="4"/>
+        <attribute name="Settlement Agent Signature" value="Y" page="4"/>
+      </Document>
+      <Document filename="98-1.pdf" type="Borrower Information Document" pages="1" version="1" fileType="pdf" fileSize="40603" format="singlepage" hash="0828b712c4c9c3d17439cc4cdd09e1fa">
+        <attribute name="Signature 1" value="N" page="4"/>
+        <attribute name="Document Date" value="04/10/2013" page="4"/>
+      </Document>
+      <Document filename="65-1.pdf" type="Social Security Number Verification" pages="2" version="1" fileType="pdf" fileSize="81213" format="multipage" hash="f3ad391f37f5f6d71b54ae873caab1bf">
+        <attribute name="Document Date" value="06/12/2013" page="4"/>
+        <attribute name="Ssn 1" value="085-48-8468" page="4"/>
+      </Document>
+      <Document filename="68-1.pdf" type="Tax Returns" pages="13" version="1" fileType="pdf" fileSize="771751" format="multipage" hash="526f916c4b43e19c502f5350c4fc3fe6">
+        <attribute name="Ssn 1" value="085-48-8468" page="4"/>
+        <attribute name="Ssn 2" value="585-48-8473" page="4"/>
+      </Document>
+      <Document filename="68-2.pdf" type="Tax Returns" pages="20" version="2" fileType="pdf" fileSize="1291954" format="multipage" hash="f3a5d4db39b17639347290600be99562">
+        <attribute name="Ssn 1" value="085-48-8468" page="6"/>
+        <attribute name="Ssn 2" value="585-48-8473" page="6"/>
+      </Document>
+      <Document filename="221-1.pdf" type="Notice of Consumer Choice of Title Attorney" pages="2" version="1" fileType="pdf" fileSize="114719" format="multipage" hash="2625723d003f6dae0af5e4ea6811dd28">
+        <attribute name="Document Date" value="06/12/2013" page="4"/>
+      </Document>
+      <Document filename="185-1.pdf" type="Importance of Owner Title Insurance Notice" pages="1" version="1" fileType="pdf" fileSize="47606" format="singlepage" hash="bb9723f7b93dc4701188ba0fb186aac3">
+        <attribute name="Signature 1" value="Y" page="4"/>
+        <attribute name="Signature 2" value="Y" page="4"/>
+        <attribute name="Document Date" value="06/08/2013" page="4"/>
+      </Document>
+      <Document filename="185-2.pdf" type="Importance of Owner Title Insurance Notice" pages="1" version="2" fileType="pdf" fileSize="45164" format="singlepage" hash="263c4cbf6965b729053bc5de4336d1fc">
+        <attribute name="Signature 1" value="Y" page="6"/>
+        <attribute name="Signature 2" value="Y" page="6"/>
+        <attribute name="Document Date" value="06/12/2013" page="6"/>
+      </Document>
+      <Document filename="53-1.pdf" type="Paystubs" pages="1" version="1" fileType="pdf" fileSize="72019" format="singlepage" hash="06e417d1f2df004b4b34402840b68616">
+        <attribute name="Payment Date" value="03/29/2013" page="4"/>
+      </Document>
+      <Document filename="53-2.pdf" type="Paystubs" pages="1" version="2" fileType="pdf" fileSize="77466" format="singlepage" hash="86456f315507acba33e323f9c94aa454">
+        <attribute name="Payment Date" value="02/28/2013" page="6"/>
+      </Document>
+      <Document filename="157-1.pdf" type="Pre-Application Disclosure and Fee Agreement" pages="1" version="1" fileType="pdf" fileSize="45339" format="singlepage" hash="9a62a874c74007ebdb48e1c22972328f">
+        <attribute name="Document Date" value="05/16/2013" page="4"/>
+      </Document>
+      <Document filename="52-1.pdf" type="Occupancy Affidavit" pages="2" version="1" fileType="pdf" fileSize="96952" format="multipage" hash="49828e8245ca5bb4a38073c19dff4a8c">
+        <attribute name="Occupancy Type" value="Primary Residence" page="4"/>
+      </Document>
+      <Document filename="44-1.pdf" type="Notice of Assignment Sale or Transfer of Servicing Rights" pages="1" version="1" fileType="pdf" fileSize="78857" format="singlepage" hash="5d580ba235ea4c9f00617c1c1e7dde80">
+        <attribute name="Document Date" value="06/12/2013" page="4"/>
+      </Document>
+      <Document filename="44-2.pdf" type="Notice of Assignment Sale or Transfer of Servicing Rights" pages="1" version="2" fileType="pdf" fileSize="52288" format="singlepage" hash="ef8d155e9e2a756b51b1141c6b160695">
+        <attribute name="Document Date" value="06/12/2013" page="6"/>
+      </Document>
+      <Document filename="12-1.pdf" type="Changed Circumstance" pages="1" version="1" fileType="pdf" fileSize="78119" format="singlepage" hash="48294ae1af8ff9fc140382b5f46104f4">
+        <attribute name="Document Date" value="05/20/2013" page="4"/>
+      </Document>
+      <Document filename="10-1.pdf" type="Asset Documentation" pages="1" version="1" fileType="pdf" fileSize="91481" format="singlepage" hash="8c85e0cec2da4cce01674decebe9a306">
+        <attribute name="Document Date" value="06/12/2013" page="4"/>
+      </Document>
+      <Document filename="10-2.pdf" type="Asset Documentation" pages="1" version="2" fileType="pdf" fileSize="83854" format="singlepage" hash="3ecea091a02751f6d07366ee8dd03b8e">
+        <attribute name="Document Date" value="06/12/2013" page="6"/>
+      </Document>
+      <Document filename="10-3.pdf" type="Asset Documentation" pages="1" version="3" fileType="pdf" fileSize="92444" format="singlepage" hash="bbd609d87c141e684c40b9f9555ea470">
+        <attribute name="Document Date" value="06/12/2013" page="8"/>
+      </Document>
+      <Document filename="205-1.pdf" type="ECOA Notice " pages="1" version="1" fileType="pdf" fileSize="68314" format="singlepage" hash="1d4c4536f41ae61867943d2b0cdb38cb">
+        <attribute name="Document Date" value="06/12/2013" page="4"/>
+      </Document>
+      <Document filename="256-1.pdf" type="HUD 1 Settlement Statement Estimated" pages="4" version="1" fileType="pdf" fileSize="468223" format="multipage" hash="bdddb3beca2aef43258de98d0eeac324">
+        <attribute name="Property City" value="thatcity" page="4"/>
+        <attribute name="Property Address 1" value="123 nowhere circle ROAD" page="4"/>
+        <attribute name="Property Zip" value="*01234" page="4"/>
+        <attribute name="Property State" value="MA" page="4"/>
+        <attribute name="Name 1" value="Ben Ten" page="4"/>
+        <attribute name="Sales Price" value="800000.000" page="4"/>
+        <attribute name="Seller Name 1" value="Jseller" page="4"/>
+        <attribute name="Disbursement Date" value="06/12/2013" page="4"/>
+        <attribute name="Line 901 Interest from Date" value="08/12/2013" page="4"/>
+        <attribute name="Settlement Agent City" value="NEWTON" page="4"/>
+        <attribute name="Settlement Agent Name" value="LAW OFFICE OF PHYLLIS N. LAFFER" page="4"/>
+        <attribute name="Settlement Agent Phone No" value="(617) 244-2635" page="4"/>
+        <attribute name="Settlement Agent State" value="MA" page="4"/>
+        <attribute name="Settlement Agent Street Address" value="87 HARWICH ROAD" page="4"/>
+        <attribute name="Settlement Agent Zip" value="*02467" page="4"/>
+        <attribute name="Line 801 Amount" value="635.000" page="4"/>
+        <attribute name="Line 803 Amount" value="635.000" page="4"/>
+        <attribute name="Interest Paid Thru Date" value="07/01/2013" page="4"/>
+        <attribute name="Interest Paid at closing" value="1182.180" page="4"/>
+        <attribute name="Line 805 Amount" value="100.000" page="4"/>
+        <attribute name="Line 804 Amount" value="500.000" page="4"/>
+        <attribute name="Line 806 Amount" value="110.000" page="4"/>
+        <attribute name="Line 807 Amount" value="13.000" page="4"/>
+        <attribute name="Lines 808 thru 812 GRMA Fee" value="28.000" page="4"/>
+        <attribute name="Line 1101 Amount" value="2675.000" page="4"/>
+        <attribute name="Line 1103 Amount" value="1615.000" page="4"/>
+        <attribute name="Line 1104 Amount" value="1780.000" page="4"/>
+        <attribute name="Line 1201 Amount" value="368.000" page="4"/>
+        <attribute name="Line 1001 Amount" value="1290.980" page="4"/>
+        <attribute name="Line 303 Cash" value="127852.060" page="4"/>
+        <attribute name="Line 103 Amount" value="8542.160" page="4"/>
+        <attribute name="Line 1004 Amount" value="1290.980" page="4"/>
+        <attribute name="Line 1007 Amount" value="0.000" page="4"/>
+        <attribute name="Line 1102 Amount" value="700.000" page="4"/>
+        <attribute name="Line 1202 Amount" value="302.000" page="4"/>
+        <attribute name="Line 1203 Seller Amount" value="3648.000" page="4"/>
+        <attribute name="Line 1400 Borrower Amount" value="8642.160" page="4"/>
+        <attribute name="Line 1400 Seller Amount" value="3724.000" page="4"/>
+        <attribute name="Line 202 Loan Amount" value="640000.000" page="4"/>
+      </Document>
+      <Document filename="14-1.pdf" type="Compliance Agreement" pages="1" version="1" fileType="pdf" fileSize="89540" format="singlepage" hash="540b307c763288da320bc30a06f6fbb2">
+        <attribute name="Signature 1" value="Y" page="4"/>
+        <attribute name="Signature 2" value="Y" page="4"/>
+        <attribute name="Notary Signature 1" value="Y" page="4"/>
+        <attribute name="Notary Stamp 1" value="Y" page="4"/>
+      </Document>
+      <Document filename="95-1.pdf" type="Attorney Representation/Right to Choose Own Attorney Disclosure" pages="1" version="1" fileType="pdf" fileSize="21003" format="singlepage" hash="0e7dc8d3ee25b4f0dbef9bda23baffa1">
+        <attribute name="Signature 1" value="Y" page="4"/>
+        <attribute name="Document Date" value="05/16/2013" page="4"/>
+      </Document>
+      <Document filename="32-1.pdf" type="HUD 1 Settlement Statement Final" pages="3" version="1" fileType="pdf" fileSize="549550" format="multipage" hash="70172b06bd3257d722a40696b0dbfa7b">
+        <attribute name="Property City" value="thatcity" page="4"/>
+        <attribute name="Property Address 1" value="123 nowhere circle RD" page="4"/>
+        <attribute name="Property Zip" value="01234" page="4"/>
+        <attribute name="Property State" value="MA" page="4"/>
+        <attribute name="Name 1" value="Ben Ten" page="4"/>
+        <attribute name="Sales Price" value="800000.000" page="4"/>
+        <attribute name="Seller Name 1" value="JAMES J. RAPOPORT, T&apos;EE J&amp;S RAPOPORT REALTY" page="4"/>
+        <attribute name="Closing - Settlement Date" value="06/12/2013" page="4"/>
+        <attribute name="Disbursement Date" value="06/12/2013" page="4"/>
+        <attribute name="Line 901 Interest from Date" value="06/12/2013" page="4"/>
+        <attribute name="Settlement Agent City" value="NEWTON" page="4"/>
+        <attribute name="Settlement Agent Name" value="LAW OFFICE OF PHYLLIS N. LAFFER" page="4"/>
+        <attribute name="Settlement Agent Phone No" value="(617) 244-2635" page="4"/>
+        <attribute name="Settlement Agent State" value="MA" page="4"/>
+        <attribute name="Settlement Agent Street Address" value="87 HARWICH RD" page="4"/>
+        <attribute name="Settlement Agent Zip" value="02467" page="4"/>
+        <attribute name="Line 801 Amount" value="420.000" page="4"/>
+        <attribute name="Line 803 Amount" value="420.000" page="4"/>
+        <attribute name="Interest Paid Thru Date" value="07/01/2013" page="4"/>
+        <attribute name="Interest Paid at closing" value="67.950" page="4"/>
+        <attribute name="Line 805 Amount" value="33.970" page="4"/>
+        <attribute name="Line 804 Amount" value="500.000" page="4"/>
+        <attribute name="Line 806 Amount" value="85.000" page="4"/>
+        <attribute name="Line 807 Amount" value="13.000" page="4"/>
+        <attribute name="Lines 808 thru 812 VOD VOE Fee" value="14.000" page="4"/>
+        <attribute name="Line 903 Amount" value="1232.000" page="4"/>
+        <attribute name="Line 1101 Amount" value="2635.000" page="4"/>
+        <attribute name="Line 1103 Amount" value="1615.000" page="4"/>
+        <attribute name="Line 1104 Amount" value="1760.000" page="4"/>
+        <attribute name="Line 1201 Amount" value="400.000" page="4"/>
+        <attribute name="Line 1001 Amount" value="1290.980" page="4"/>
+        <attribute name="Line 303 Cash" value="130328.770" page="4"/>
+        <attribute name="Line 103 Amount" value="11978.000" page="4"/>
+        <attribute name="Line 1004 Amount" value="1290.980" page="4"/>
+        <attribute name="Line 1007 Amount" value="0.000" page="4"/>
+        <attribute name="Line 1102 Amount" value="700.000" page="4"/>
+        <attribute name="Line 1202 Amount" value="300.000" page="4"/>
+        <attribute name="Line 1203 Seller Amount" value="3648.000" page="4"/>
+        <attribute name="Line 1206 Amount" value="100.000" page="4"/>
+        <attribute name="Line 1400 Borrower Amount" value="11978.000" page="4"/>
+        <attribute name="Line 1400 Seller Amount" value="3724.000" page="4"/>
+        <attribute name="Line 202 Loan Amount" value="640000.000" page="4"/>
+      </Document>
+      <Document filename="79-1.pdf" type="Uniform Residential Loan App Final" pages="4" version="1" fileType="pdf" fileSize="465972" format="multipage" hash="debd6b00c61dcbad4055b12dc074a344">
+        <attribute name="Property City" value="thatcity" page="4"/>
+        <attribute name="Property Address 1" value="123 nowhere circle ROAD" page="4"/>
+        <attribute name="Property Zip" value="*01234" page="4"/>
+        <attribute name="Property State" value="MA" page="4"/>
+        <attribute name="Name 1" value="Benjamin Ten" page="4"/>
+        <attribute name="Ssn 1" value="085-48-8468" page="4"/>
+        <attribute name="Loan Amount" value="640000.000" page="4"/>
+        <attribute name="Term" value="360" page="4"/>
+        <attribute name="Loan Purpose" value="PURCHASE" page="4"/>
+        <attribute name="Base Income" value="17651.430" page="4"/>
+        <attribute name="Date of Birth" value="11/03/1974" page="4"/>
+        <attribute name="Marital status" value="MARRIED" page="4"/>
+        <attribute name="Name of Employer" value="BOSTON MEDICAL CENTER" page="4"/>
+        <attribute name="Position" value="MEDICAL DOCTOR/ASSISTANT PROFESSOR" page="4"/>
+        <attribute name="Property will be" value="Primary Residence" page="4"/>
+        <attribute name="Self Employed 1" value="N" page="4"/>
+        <attribute name="Years in Job" value="4" page="4"/>
+        <attribute name="Years in Line of Work" value="16" page="4"/>
+        <attribute name="Citizenship" value="Y" page="4"/>
+        <attribute name="Borrower 1 Total Income" value="17651.430" page="4"/>
+        <attribute name="Resident Alien" value="N" page="4"/>
+        <attribute name="B1 Work Address 1" value="85 EAST CONCORD ST" page="4"/>
+        <attribute name="B1 Work Address 2" value="SUITE 7220" page="4"/>
+        <attribute name="B1 Work City" value="BOSTON" page="4"/>
+        <attribute name="B1 Work State" value="MA" page="4"/>
+        <attribute name="B1 Work Zip" value="*02118" page="4"/>
+        <attribute name="Loan Officer Name" value="CHRISTOPHER WADE" page="4"/>
+        <attribute name="Loan Origination Company Address" value="TEN POST OFFICE SQUARE, BOSTON, MA 02109" page="4"/>
+        <attribute name="Loan Origination Company Identifier" value="690868" page="4"/>
+        <attribute name="Loan Origination Company Name" value="BOSTON PRIVATE BANK &amp; TRUST COMPANY" page="4"/>
+        <attribute name="Loan Originator Identifier - NMLS No" value="733455" page="4"/>
+        <attribute name="Information provided type" value="TELEPHONE INTERVIEW" page="4"/>
+      </Document>
+      <Document filename="22-1.pdf" type="Flood Certification" pages="2" version="1" fileType="pdf" fileSize="133798" format="multipage" hash="3b32590cfee22265297f19806e2d721a">
+        <attribute name="Property City" value="thatcity" page="4"/>
+        <attribute name="Property Address 1" value="123 nowhere circle RD" page="4"/>
+        <attribute name="Property Zip" value="*01234" page="4"/>
+        <attribute name="Property State" value="MA" page="4"/>
+        <attribute name="Name 1" value="Ben Ten" page="4"/>
+        <attribute name="Flood Zone" value="N" page="4"/>
+      </Document>
+      <Document filename="7-1.pdf" type="Appraisal" pages="18" version="1" fileType="pdf" fileSize="16762218" format="multipage" hash="66071ee0ecc672d31c9f60ab1e8cdc2d">
+        <attribute name="Property City" value="thatcity" page="4"/>
+        <attribute name="Property Address 1" value="123 nowhere circle RD" page="4"/>
+        <attribute name="Property Zip" value="*01234" page="4"/>
+        <attribute name="Property State" value="MA" page="4"/>
+        <attribute name="Appraisal Date" value="05/17/2013" page="4"/>
+        <attribute name="Appraisal Type" value="0" page="4"/>
+        <attribute name="Appraiser Company" value="GREATER BOSTON VALUATION" page="4"/>
+        <attribute name="Appraiser Name" value="GERARD F HAILER" page="4"/>
+        <attribute name="Appraiser signature" value="Y" page="4"/>
+        <attribute name="Effective Date" value="05/17/2013" page="4"/>
+        <attribute name="Lender" value="BOSTON PRIVATE BANK &amp; TRUST CO" page="4"/>
+        <attribute name="Name 1" value="Ben Ten" page="4"/>
+        <attribute name="Tax Parcel Number" value="MAP 116 BLOCK 11 LOT 0" page="4"/>
+        <attribute name="Units" value="ONE" page="4"/>
+        <attribute name="Assignment Type" value="Purchase Transaction" page="4"/>
+        <attribute name="Property Values" value="805000" page="4"/>
+        <attribute name="Appraisal Comp Gross Adj 1" value="0.054" page="4"/>
+        <attribute name="Appraisal Comp Gross Adj 2" value="0.057" page="4"/>
+        <attribute name="Appraisal Comp Gross Adj 3" value="0.046" page="4"/>
+        <attribute name="Appraisal Comp Net Adj 1" value="0.029" page="4"/>
+        <attribute name="Appraisal Comp Net Adj 2" value="0.027" page="4"/>
+        <attribute name="Appraisal Comp Net Adj 3" value="0.009" page="4"/>
+        <attribute name="Appraisal Location" value="Suburban" page="4"/>
+        <attribute name="Appraisal Zoning Compliance" value="LEGAL" page="4"/>
+        <attribute name="Appraisal Completion Status" value="AS IS" page="4"/>
+        <attribute name="Condition" value="C3" page="4"/>
+        <attribute name="Property Rights" value="FEE SIMPLE" page="4"/>
+        <attribute name="Appraisal Comp Sale All Pics" value="Y" page="4"/>
+        <attribute name="Appraiser Company Address" value="P.O. BOX 487, DEDHAM, MA 02026" page="4"/>
+        <attribute name="Contract Price" value="800000.000" page="4"/>
+        <attribute name="Exterior Sketch" value="Y" page="4"/>
+        <attribute name="Marketing Time" value="3-6 MTHS" page="4"/>
+        <attribute name="Owner of Record" value="J&amp;S RAPAPORT RT &amp; JAMES J. RAPA" page="4"/>
+        <attribute name="Street Map" value="Y" page="4"/>
+        <attribute name="Zoning Description" value="80 FRONTAGE FEET, 10,000 SF LOT MINIMUM" page="4"/>
+        <attribute name="Appraiser Cert Number" value="CG-RE APP #75242" page="4"/>
+        <attribute name="Appraiser Certification State" value="MA" page="4"/>
+        <attribute name="Appraiser License Number" value="75242" page="4"/>
+        <attribute name="Appraiser Signature Date" value="05/19/2013" page="4"/>
+        <attribute name="Quality of Construction" value="Q3" page="4"/>
+        <attribute name="Subject Pic Front" value="Y" page="4"/>
+        <attribute name="Subject Pic Rear" value="Y" page="4"/>
+        <attribute name="Subject Pic Street" value="Y" page="4"/>
+        <attribute name="Name 2" value="John Eleven" page="4"/>
+      </Document>
+      <Document filename="7-2.pdf" type="Appraisal" pages="19" version="2" fileType="pdf" fileSize="7566579" format="multipage" hash="6e4efeca32126a12dd44bb0954a41ee0">
+        <attribute name="Property City" value="thatcity" page="6"/>
+        <attribute name="Property Address 1" value="123 nowhere circle RD" page="6"/>
+        <attribute name="Property Zip" value="*01234" page="6"/>
+        <attribute name="Property State" value="MA" page="6"/>
+        <attribute name="Appraisal Date" value="05/17/2013" page="6"/>
+        <attribute name="Appraisal Type" value="0" page="6"/>
+        <attribute name="Appraiser Company" value="GREATER BOSTON VALUATION" page="6"/>
+        <attribute name="Appraiser Name" value="GERARD F HAILER" page="6"/>
+        <attribute name="Appraiser signature" value="Y" page="6"/>
+        <attribute name="Effective Date" value="05/17/2013" page="6"/>
+        <attribute name="Lender" value="BOSTON PRIVATE BANK &amp; TRUST CO" page="6"/>
+        <attribute name="Name 1" value="Ben Ten" page="6"/>
+        <attribute name="Tax Parcel Number" value="MAP 116 BLOCK 11 LOT 0" page="6"/>
+        <attribute name="Units" value="ONE" page="6"/>
+        <attribute name="Assignment Type" value="PURCHASE TRANSACTION" page="6"/>
+        <attribute name="Property Values" value="805000" page="6"/>
+        <attribute name="Appraisal Comp Gross Adj 1" value="0.054" page="6"/>
+        <attribute name="Appraisal Comp Gross Adj 2" value="0.057" page="6"/>
+        <attribute name="Appraisal Comp Gross Adj 3" value="0.046" page="6"/>
+        <attribute name="Appraisal Comp Net Adj 1" value="0.029" page="6"/>
+        <attribute name="Appraisal Comp Net Adj 2" value="0.027" page="6"/>
+        <attribute name="Appraisal Comp Net Adj 3" value="0.009" page="6"/>
+        <attribute name="Appraisal Location" value="SUBURBAN" page="6"/>
+        <attribute name="Appraisal Zoning Compliance" value="LEGAL" page="6"/>
+        <attribute name="Appraisal Completion Status" value="AS IS " page="6"/>
+        <attribute name="Condition" value="C3" page="6"/>
+        <attribute name="Property Rights" value="FEE SIMPLE" page="6"/>
+        <attribute name="Appraisal Comp Sale All Pics" value="Y" page="6"/>
+        <attribute name="Appraiser Company Address" value="P.O. BOX 487, DEDHAM, MA 02026" page="6"/>
+        <attribute name="Contract Price" value="800000.000" page="6"/>
+        <attribute name="Exterior Sketch" value="Y" page="6"/>
+        <attribute name="Marketing Time" value="3-6 MTHS" page="6"/>
+        <attribute name="Owner of Record" value="J&amp;S RAPAPORT RT &amp; JAMES J. RAPA" page="6"/>
+        <attribute name="Street Map" value="Y" page="6"/>
+        <attribute name="Zoning Description" value="80 FRONTAGE FEET, 10,000 SF LOT MINIMUM" page="6"/>
+        <attribute name="Appraiser Cert Number" value="CG-RE APP #75242" page="6"/>
+        <attribute name="Appraiser Certification State" value="MA" page="6"/>
+        <attribute name="Appraiser License Number" value="75242" page="6"/>
+        <attribute name="Appraiser Signature Date" value="05/19/2013" page="6"/>
+        <attribute name="Quality of Construction" value="Q3" page="6"/>
+        <attribute name="Subject Pic Front" value="Y" page="6"/>
+        <attribute name="Subject Pic Rear" value="Y" page="6"/>
+        <attribute name="Subject Pic Street" value="Y" page="6"/>
+        <attribute name="Name 2" value="John Eleven" page="6"/>
+      </Document>
+      <Document filename="197-1.pdf" type="Closing Disclosure" pages="2" version="1" fileType="pdf" fileSize="157535" format="multipage" hash="272a5c0c15a120f69bd1c9a2f36d9cb6">
+        <attribute name="Signature 1" value="N" page="4"/>
+        <attribute name="Signature Date 1" value="06/06/2013" page="4"/>
+      </Document>
+      <Document filename="81-1.pdf" type="Uniform Transmittal Summary 1008" pages="1" version="1" fileType="pdf" fileSize="237195" format="singlepage" hash="02c060e84ef9e01011555f4c5a08a950">
+        <attribute name="Interest rate" value="0.039" page="4"/>
+        <attribute name="Loan Amount" value="640000.000" page="4"/>
+        <attribute name="Property Type" value="1 unit" page="4"/>
+        <attribute name="Lien Position" value="1st" page="4"/>
+      </Document>
+      <Document filename="74-1.pdf" type="Truth in Lending Disclosure Statement Final" pages="2" version="1" fileType="pdf" fileSize="119040" format="multipage" hash="4bab7d0a25d9032f6235c140a7c3a005">
+        <attribute name="Property City" value="thatcity" page="4"/>
+        <attribute name="Property Address 1" value="123 nowhere circle RD" page="4"/>
+        <attribute name="Property Zip" value="01234" page="4"/>
+        <attribute name="Signature 1" value="Y" page="4"/>
+        <attribute name="Property State" value="MA" page="4"/>
+        <attribute name="Interest rate" value="0.039" page="4"/>
+        <attribute name="Name 1" value="Ben Ten" page="4"/>
+        <attribute name="P and I Payment" value="3009.520" page="4"/>
+        <attribute name="Late Days" value="15" page="4"/>
+        <attribute name="Late Percent" value="0.030" page="4"/>
+        <attribute name="Transaction Date" value="06/12/2013" page="4"/>
+        <attribute name="Annual Percentage Rate" value="0.039" page="4"/>
+        <attribute name="Finance Charge" value="445948.510" page="4"/>
+        <attribute name="Total Payment" value="1083425.460" page="4"/>
+        <attribute name="Amount Financed" value="637476.950" page="4"/>
+        <attribute name="No Guarantee verbiage present" value="Y" page="4"/>
+        <attribute name="Assumable" value="N" page="4"/>
+        <attribute name="Hazard Insurance Required" value="Y" page="4"/>
+      </Document>
+      <Document filename="86-1.pdf" type="W-9" pages="4" version="1" fileType="pdf" fileSize="383714" format="multipage" hash="386e4d04a0921d4a216ab2725d02e7ef">
+        <attribute name="Ssn 1" value="085-48-8468" page="4"/>
+      </Document>
+      <Document filename="80-1.pdf" type="Uniform Residential Loan App Initial" pages="3" version="1" fileType="pdf" fileSize="657099" format="multipage" hash="768976a9cd6def0f38081fa043308256">
+        <attribute name="Name 1" value="Ben Ten" page="4"/>
+        <attribute name="Signature 1A date" value="05/25/2013" page="4"/>
+        <attribute name="Loan Officer Name" value="CHRISTOPHER WADE" page="4"/>
+        <attribute name="Loan Origination Company Address" value="TEN POST OFFICE SQUARE, BOSTON, MA 02109" page="4"/>
+        <attribute name="Loan Origination Company Identifier" value="690868" page="4"/>
+        <attribute name="Loan Origination Company Name" value="BOSTON PRIVATE BANK &amp; TRUST COMPANY" page="4"/>
+        <attribute name="Loan Originator Identifier - NMLS No" value="733455" page="4"/>
+      </Document>
+      <Document filename="198-1.pdf" type="Closing Instructions" pages="3" version="1" fileType="pdf" fileSize="260799" format="multipage" hash="0f1eb0f88a725a9a8b9ab4e898e17b70"/>
+      <Document filename="188-2.pdf" type="First Payment Letter" pages="1" version="2" fileType="pdf" fileSize="44875" format="singlepage" hash="c451a03b26e28304415a554e02226dbd"/>
+      <Document filename="188-1.pdf" type="First Payment Letter" pages="1" version="1" fileType="pdf" fileSize="22543" format="singlepage" hash="5b26bf2aa3112151eb64283d18e4490f"/>
+      <Document filename="188-3.pdf" type="First Payment Letter" pages="1" version="3" fileType="pdf" fileSize="36267" format="singlepage" hash="1760124a7d9dcd660a4458229c537ae2"/>
+      <Document filename="194-1.pdf" type="Borrowers Certification and Authorization Letter " pages="1" version="1" fileType="pdf" fileSize="63261" format="singlepage" hash="9e99fb2b148d0e3600fdd470946cd48f"/>
+      <Document filename="234-2.pdf" type="Title Certificate" pages="1" version="2" fileType="pdf" fileSize="81622" format="singlepage" hash="5dcb3c589ea15c02572b253f514c8ecf"/>
+      <Document filename="234-1.pdf" type="Title Certificate" pages="3" version="1" fileType="pdf" fileSize="151209" format="multipage" hash="9515f07f099a445aa3592f7f8046eec0"/>
+      <Document filename="234-3.pdf" type="Title Certificate" pages="5" version="3" fileType="pdf" fileSize="400373" format="multipage" hash="b830fef8e2e610b4f2b3318aeb719117"/>
+      <Document filename="238-2.pdf" type="USA Patriot Act Information Form" pages="1" version="2" fileType="pdf" fileSize="58781" format="singlepage" hash="303ab44ef3c5439d4dff727cf650fe7b"/>
+      <Document filename="238-1.pdf" type="USA Patriot Act Information Form" pages="1" version="1" fileType="pdf" fileSize="66758" format="singlepage" hash="40907891afe9dfc213b927fad5508bd9"/>
+      <Document filename="261-1.pdf" type="Miscellaneous" pages="140" version="1" fileType="pdf" fileSize="10711462" format="multipage" hash="32aac6027f5b7a085ccc4ec3b00d2844"/>
+      <Document filename="261-2.pdf" type="Miscellaneous" pages="55" version="2" fileType="pdf" fileSize="3120942" format="multipage" hash="bd2a5a062bb58545313b36d4194effbd"/>
+      <Document filename="261-3.pdf" type="Miscellaneous" pages="1" version="3" fileType="pdf" fileSize="38534" format="singlepage" hash="12b9b6d92286c43fbd5f9eaaf0770890"/>
+      <Document filename="187-1.pdf" type="Initial Escrow Account Disclosure Statement" pages="1" version="1" fileType="pdf" fileSize="38985" format="singlepage" hash="a8e1360b9550a3e57526d5ecd4f3a254"/>
+      <Document filename="190-1.pdf" type="Appraisal Independence Requirements Acknowledgment Disclosure " pages="1" version="1" fileType="pdf" fileSize="41523" format="singlepage" hash="8470b6bb59bc0ca592af00ba993a14d3"/>
+      <Document filename="239-1.pdf" type="Verbal Verification of Employment (VVOE)" pages="1" version="1" fileType="pdf" fileSize="69871" format="singlepage" hash="2b5ac785b6f57bddf975138add7aab25"/>
+      <Document filename="204-2.pdf" type="Credit Score Disclosure Notice to the Home Loan Applicant " pages="3" version="2" fileType="pdf" fileSize="156694" format="multipage" hash="00de966775786be03cfb86a9c5db3cbb"/>
+      <Document filename="204-1.pdf" type="Credit Score Disclosure Notice to the Home Loan Applicant " pages="3" version="1" fileType="pdf" fileSize="180805" format="multipage" hash="2be3ca59ce1e4e613b442b2d69d7ef36"/>
+      <Document filename="182-1.pdf" type="Security Protection Notice" pages="5" version="1" fileType="pdf" fileSize="229114" format="multipage" hash="51d6f503cccd0ff968b9780e561cade2"/>
+      <Document filename="40-1.pdf" type="Loan Servicing Disclosure Statement" pages="1" version="1" fileType="pdf" fileSize="129199" format="singlepage" hash="c9fce2b1abdde8157e704f38ba2848ce"/>
+      <Document filename="247-1.pdf" type="Borrowers Blanket Signature Authorization" pages="1" version="1" fileType="pdf" fileSize="25039" format="singlepage" hash="aabff3ce9bd90b4d891a8bd5a9b3f999"/>
+    </Documents>
+  </adfitech>
+</CdeLoan>

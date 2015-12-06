@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<CdeLoan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <adfitech processDate="2015-07-29" loanid="LOAN_ID" transactionType="Due Diligence" event="Receipt">
+    <Receipt Filename="Loan_1142_Archive_22-29-2015_03_22_24_PM.zip" timestamp="2015-07-29_12:29:27">
+      <File name="Loan_1142_Archive_22-29-2015_03_22_24_PM.zip" error="Corrupt Archive" errorcode="5"/>
+    </Receipt>
+  </adfitech>
+</CdeLoan>

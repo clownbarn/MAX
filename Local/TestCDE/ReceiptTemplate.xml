@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<CdeLoan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <adfitech processDate="2015-08-10" loanid="LOAN_ID" transactionType="Due Diligence" event="Receipt">
+    <Receipt Filename="Loan_2009_Archive_27-04-2015_09_27_57_AM.zip" timestamp="2015-08-10_11:23:10"/>
+  </adfitech>
+</CdeLoan>

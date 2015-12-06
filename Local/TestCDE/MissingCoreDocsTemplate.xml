@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<CdeLoan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <adfitech processDate="2015-08-13" loanid="LOAN_ID" transactionType="Due Diligence" event="MissingCoreDocs">
+    <MissingCoreDocs>
+		<Document type="USA Patriot Act Information Form"/>
+		<Document type="Verbal Verification of Employment (VVOE)"/>
+		<Document type="DU Underwriting Findings"/>
+		<Document type="Notice to Purchaser - Mortgagor"/>
+		<Document type="Consent to Social Security Administrations Release of Social Security Number Verification"/>
+		<Document type="Affiliate Sharing Opt Out Notice"/>
+		<Document type="Right to Choose Insurance Provider"/>
+    </MissingCoreDocs>
+  </adfitech>
+</CdeLoan>

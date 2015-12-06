@@ -45,7 +45,7 @@ echo MAX Portal Services build and publish complete.
 goto NoxBuildComplete
 
 :NoxBuildComplete
-echo "NOX build complete"
+echo NOX build complete
 goto Fin
 
 :NoxBuildFailed

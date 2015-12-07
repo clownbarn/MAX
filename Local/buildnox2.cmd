@@ -1,15 +1,13 @@
-@echo off
+echo off
 
 REM Initialization
 set __NOXHOST=STVNOX
 set __NOXBUILDTOOLSDIR=c:\tools\bin\MAX
-set __USERACCOUNT=XXXX\XXXXXXXXX
-set __USERPASSWORD=XXXXXXXX
 set __GITREPODIR=C:\Wipro Gallagher Solutions\NetOxygen
 
 echo Launching remote NOX build on %__NOXHOST%...
 
-psexec \\%__NOXHOST% -w "%__GITREPODIR%" -u %__USERACCOUNT% -p %__USERPASSWORD% git fetch --verbose
+psexec \\%__NOXHOST% -w "%__GITREPODIR%" -u %NOXBUILDUSER% -p %NOXBUILDPASSWORD% git fetch --verbose
 IF NOT '%ERRORLEVEL%' =='0' (goto BuildFailed)
 
 psexec \\%__NOXHOST% -w %__NOXBUILDTOOLSDIR% buildnoxremote.cmd

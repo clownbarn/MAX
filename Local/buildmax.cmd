@@ -59,8 +59,8 @@ echo Database publishing complete.
 
 REM Build NOX interpreter scripts and MaxPortalServices
 echo Performing NOX build step...
-REM call %__USERBUILDTOOLSDIR%\buildnox2.cmd
-call %__USERBUILDTOOLSDIR%\buildnox2.cmd
+REM call buildnox2.cmd
+call buildnox2.cmd
 IF NOT '%ERRORLEVEL%' =='0' (goto BuildFailed)
 echo NOX build step complete.
 goto BuildFinished

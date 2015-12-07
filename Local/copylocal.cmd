@@ -1,7 +1,7 @@
 REM Copy CMD Files...
 ECHO F|xcopy /S /F /R /Y buildmax.cmd C:\Tools\Bin\MAX\buildmax.cmd
 ECHO F|xcopy /S /F /R /Y publishdbs2.cmd C:\Tools\Bin\MAX\publishdbs2.cmd
-ECHO F|xcopy /S /F /R /Y buildnox2.cmd %USERPROFILE%\Tools\Bin\buildnox2.cmd
+ECHO F|xcopy /S /F /R /Y buildnox2.cmd C:\Tools\Bin\MAX\buildnox2.cmd
 
 REM Copy PowerShell Scripts...
 ECHO F|xcopy /S /F /R /Y .\PowerShell\_profile.ps1 C:\Tools\Bin\MAX\PowerShell\_profile.ps1

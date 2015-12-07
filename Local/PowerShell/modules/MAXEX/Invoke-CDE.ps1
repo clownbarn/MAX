@@ -97,7 +97,7 @@
         
         $templateFileName = ""
 
-        $workingDirName = "C:\tools\bin\TestCDE"
+        $workingDirName = "C:\tools\bin\MAX\TestCDE"
         $zipFileName = $workingDirName + "\" + $loanId.ToString() + ".zip"
         $resultFileName = $loanId.ToString() + "_results.xml"
         $pdfDirName = $workingDirName + "\PDF"

@@ -2,7 +2,7 @@
 
 REM Initialization
 set __NOXHOST=STVNOX
-set __NOXBUILDTOOLSDIR=c:\tools\bin\
+set __NOXBUILDTOOLSDIR=c:\tools\bin\MAX
 set __USERACCOUNT=XXXX\XXXXXXXXX
 set __USERPASSWORD=XXXXXXXX
 set __GITREPODIR=C:\Wipro Gallagher Solutions\NetOxygen

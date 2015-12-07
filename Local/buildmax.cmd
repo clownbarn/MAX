@@ -2,7 +2,7 @@
 
 REM Initialization
 set __MAXBUILDFAILED=0
-set __BUILDTOOLSDIR=C:\tools\bin
+set __BUILDTOOLSDIR=C:\tools\bin\MAX
 set __USERBUILDTOOLSDIR=%USERPROFILE%\tools\bin
 set __WORKSPACEDIR=C:\Workspaces\Code\Dev
 set __DOCGENSOLUTIONPATH="%__WORKSPACEDIR%\Application Layer\Max.Business.DocumentGenerator\Max.Business.DocumentGenerator.sln"

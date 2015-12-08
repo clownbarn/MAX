@@ -3,7 +3,7 @@ REM Get's the latest source from TFS and builds NOX locally.
 echo "Getting latest from TFS..."
 
 cd "C:\Wipro Gallagher Solutions\NetOxygen"
-git fetch --verbose
+git pull --verbose
 
 echo "Building interpreter scripts"
 DotNetScriptCompiler.exe /Rebuild

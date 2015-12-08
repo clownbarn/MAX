@@ -7,7 +7,7 @@ set __GITREPODIR=C:\Wipro Gallagher Solutions\NetOxygen
 
 echo Launching remote NOX build on %__NOXHOST%...
 
-psexec \\%__NOXHOST% -w "%__GITREPODIR%" -u %NOXBUILDUSER% -p %NOXBUILDPASSWORD% git fetch --verbose
+psexec \\%__NOXHOST% -w "%__GITREPODIR%" -u %NOXBUILDUSER% -p %NOXBUILDPASSWORD% git pull --verbose
 IF NOT '%ERRORLEVEL%' =='0' (goto BuildFailed)
 
 psexec \\%__NOXHOST% -w %__NOXBUILDTOOLSDIR% buildnoxremote.cmd

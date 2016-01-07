@@ -46,8 +46,7 @@ Function New-Migration {
                 return
             }
         }
-
-        #$rakeCommand = "bundle exec rake ""db:" + $database.ToString() + ":new_migration[Pbi" + $pbi.ToString() + ", 'Migration script for PBI " + $pbi.ToString() + "']""";
+                
         $rakeCommand = "bundle exec rake ""db:" + $database.ToString() + ":new_migration[Pbi" + $pbi.ToString() + ", Migration script for PBI " + $pbi.ToString() + "]""";
 
         cd $sourceRootDir

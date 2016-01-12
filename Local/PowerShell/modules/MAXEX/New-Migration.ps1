@@ -25,18 +25,21 @@ Function New-Migration {
         $workingDir = (Get-Item -Path ".\" -Verbose).FullName
         $sourceRootDir = "C:\Workspaces\Code\Dev"
         $databaseToMigrate = "";
+        $migrationDir = "";
 
         switch($database)
         {
             "portal"
                 {                     
                     $databaseToMigrate = "MaxPortal"
+                    $migrationDir = $sourceRootDir + "\Data\Max.Migrations.Portal\Migrations"
                     break                    
                 }
 
             "pricing"
                 {                    
                     $databaseToBackup = "MaxPricing"
+                    $migrationDir = $sourceRootDir + "\PricingService\Max.Migrations.PricingService\Migrations"
                     break
                 }
             
@@ -46,12 +49,24 @@ Function New-Migration {
                 return
             }
         }
+        
+        <# Invoke the rake command to create the new database migration #>
                 
         $rakeCommand = "bundle exec rake ""db:" + $database.ToString() + ":new_migration[Pbi" + $pbi.ToString() + ", Migration script for PBI " + $pbi.ToString() + "]""";
 
         cd $sourceRootDir
 
         Invoke-Expression -Command:$rakeCommand
+
+        <# Get the name of the newly created migration source file and add it to source control #>
+
+        $files = Get-ChildItem -path $migrationDir -File
+
+        $lastFile = $files | sort LastWriteTime | select -last 1
+
+        $tfsCommand = "tf add " + $migrationDir + "\" + $lastFile
+
+        Invoke-Expression -Command:$tfsCommand
         
         cd $workingDir
     }

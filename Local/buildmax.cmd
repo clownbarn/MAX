@@ -32,20 +32,9 @@ IF NOT '%ERRORLEVEL%' =='0' (
 )
 IF %__MAXBUILDFAILED% == 1 (goto BuildFailed)
 
-REM Build Document Generator Solution
-echo Building Document Generator Solution...
-devenv %__DOCGENSOLUTIONPATH% /clean
-devenv %__DOCGENSOLUTIONPATH% /build debug
-IF NOT EXIST %__DOCGENOUTPUTPATH% (goto BuildFailed)
-echo Document Generator Solution Build complete.
-
 REM Build Max Portal solution 
 echo Building Max Portal Solution...
 devenv %__MAXSOLUTIONPATH% /clean
-devenv %__MAXSOLUTIONPATH% /project %__PRICINGDATAPROJECTPATH% /build debug
-IF NOT EXIST %__PRICINGDATAOUTPUTPATH% (goto BuildFailed)
-devenv %__MAXSOLUTIONPATH% /project %__MAXDATAPROJECTPATH% /build debug
-IF NOT EXIST %__MAXDATAOUTPUTPATH% (goto BuildFailed)
 devenv %__MAXSOLUTIONPATH% /build debug
 IF NOT EXIST %__MAXPORTALOUTPUTPATH% (goto BuildFailed)
 echo Max Portal Solution Build complete.

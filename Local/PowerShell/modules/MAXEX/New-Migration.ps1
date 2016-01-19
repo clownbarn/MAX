@@ -3,7 +3,7 @@ Function New-Migration {
     Param(
         [parameter(Mandatory=$true, ValueFromPipeline)]
         [ValidateNotNullOrEmpty()] #No value
-        [int]$pbi,
+        [string]$pbi,
         [parameter(Mandatory=$true, ValueFromPipeline)]
         [ValidateNotNullOrEmpty()] #No value
         [string]$database        

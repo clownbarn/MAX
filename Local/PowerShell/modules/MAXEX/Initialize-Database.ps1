@@ -51,8 +51,11 @@
         
         $sqlServiceCommand = "net start MSSQLSERVER"
         Invoke-Expression -Command:$sqlServiceCommand
+
+        <# Second, back up the database #>
+        Invoke-DBBackup $database
         
-        <# Second, use RAKE command to rebuild database #>
+        <# Third, use RAKE command to rebuild database #>
 
         $rakeCommand = "bundle exec rake ""db:" + $database.ToString() + ":rebuild""";
 

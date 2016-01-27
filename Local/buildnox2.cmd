@@ -1,4 +1,4 @@
-echo off
+@echo off
 
 REM In order to run this script, you must set up the following environment variables:
 REM NOXHOST = The machine name of your NOX Server
@@ -8,6 +8,8 @@ REM NOXBUILDPASSWORD = The domain user account password you use to log into your
 REM Initialization
 set __NOXBUILDTOOLSDIR=c:\tools\bin\MAX
 set __GITREPODIR=C:\Wipro Gallagher Solutions\NetOxygen
+set __TFSMAXPORTALSERVICESPATH="$/MAX/Code/Dev/Net Oxygen/Server/Services/MaxPortalServices"
+set __NOXBUILDFAILED=0
 
 echo Launching remote NOX build on %__NOXHOST%...
 
@@ -45,9 +47,25 @@ IF NOT '%ERRORLEVEL%' =='0' (goto BuildFailed)
 psexec \\%NOXHOST% -w "%__GITREPODIR%" -u %NOXBUILDUSER% -p %NOXBUILDPASSWORD% git checkout -- scripts\WorkflowCustom\Script.WorkflowCustom.C#.csproj
 IF NOT '%ERRORLEVEL%' =='0' (goto BuildFailed)
 
-REM Get Latest Source.
+REM Get Latest Source From GIT.
+echo Getting latest from GIT...
+
 psexec \\%NOXHOST% -w "%__GITREPODIR%" -u %NOXBUILDUSER% -p %NOXBUILDPASSWORD% git pull --verbose
 IF NOT '%ERRORLEVEL%' =='0' (goto BuildFailed)
+
+REM Get Latest Source from TFS.
+echo Getting latest from TFS...
+
+psexec \\%NOXHOST% -u %NOXBUILDUSER% -p %NOXBUILDPASSWORD% tf get %__TFSMAXPORTALSERVICESPATH% /recursive /all
+IF NOT '%ERRORLEVEL%' =='0' (
+	IF '%ERRORLEVEL%' =='1' (
+		REM Indicates TFS GET partial success.  Carry on.
+		set __NOXBUILDFAILED=0
+	) ELSE (
+		set __NOXBUILDFAILED=1
+	)
+)
+IF '%__NOXBUILDFAILED%' == '1' (goto BuildFailed)
 
 psexec \\%NOXHOST% -w %__NOXBUILDTOOLSDIR% buildnoxremote.cmd
 IF NOT '%ERRORLEVEL%' =='0' (goto BuildFailed)

@@ -3,8 +3,9 @@
 REM Initialization
 set __MAXBUILDFAILED=0
 set __BUILDTOOLSDIR=C:\tools\bin\MAX
-set __USERBUILDTOOLSDIR=%USERPROFILE%\tools\bin
 set __WORKSPACEDIR=C:\Workspaces\Code\Dev
+set __MAXDATAMIGRATIONPATH=%__WORKSPACEDIR%\Data\Max.Migrations.Portal\Max.Migrations.Portal.csproj
+set __PRICINGDATAMIGRATIONPATH=%__WORKSPACEDIR%\PricingService\Max.Migrations.PricingService\Max.Migrations.PricingService.csproj
 set __MAXSOLUTIONPATH=%__WORKSPACEDIR%\Solutions\Max.sln
 set __MAXPORTALOUTPUTPATH="%__WORKSPACEDIR%\Web Applications\Max.UI.Portal\bin\Max.UI.Portal.dll"
 
@@ -24,6 +25,14 @@ IF NOT '%ERRORLEVEL%' =='0' (
 	)
 )
 IF %__MAXBUILDFAILED% == 1 (goto BuildFailed)
+
+REM Build Migration Projects
+echo Building Migration Projects...
+devenv %__MAXDATAMIGRATIONPATH% /clean
+devenv %__MAXDATAMIGRATIONPATH% /build debug
+devenv %__PRICINGDATAMIGRATIONPATH% /clean
+devenv %__PRICINGDATAMIGRATIONPATH% /build debug
+echo Migration Projects build complete.
 
 REM Publish databases
 echo Publishing databases...

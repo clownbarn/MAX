@@ -36,6 +36,7 @@ IF NOT EXIST "%__OUTPUTDIR%Script.HotFieldInfo.C#.dll" (goto NoxBuildFailed)
 IF NOT EXIST "%__OUTPUTDIR%Script.PaymentStreams.C#.dll" (goto NoxBuildFailed)
 IF NOT EXIST "%__OUTPUTDIR%Script.Services.C#.dll" (goto NoxBuildFailed)
 IF NOT EXIST "%__OUTPUTDIR%Script.FieldValidation.C#.dll" (goto NoxBuildFailed)
+IF NOT "%ERRORLEVEL%" =="0" (goto NoxBuildFailed)
 echo Interpreter script build complete.
 
 REM Build and Publish MAX Portal Services
@@ -49,6 +50,7 @@ echo NOX build complete
 goto Fin
 
 :NoxBuildFailed
+echo NOX BUILD FAILED
 cmd /b exit 999
 
 :Fin

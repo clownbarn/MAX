@@ -67,7 +67,7 @@ IF NOT '%ERRORLEVEL%' =='0' (
 )
 IF '%__NOXBUILDFAILED%' == '1' (goto BuildFailed)
 
-psexec \\%NOXHOST% -w %__NOXBUILDTOOLSDIR% buildnoxremote.cmd
+psexec \\%NOXHOST% %__NOXBUILDTOOLSDIR%\buildnoxremote.cmd
 IF NOT '%ERRORLEVEL%' =='0' (goto BuildFailed)
 
 goto Fin
